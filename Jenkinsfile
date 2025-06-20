@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = 'dockerhub-pat'  // Jenkins에 등록한 Credential ID
-        IMAGE_NAME = "ahnmyeonggyun/guestbook-app"
+        IMAGE_NAME = "jimmy971/guestbook-app"
     }
 
     stages {
